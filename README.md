@@ -115,6 +115,8 @@ ALTER TABLE karyawan ADD CONSTRAINT FOREIGN KEY (sup_nik) REFERENCES karyawan (n
 ALTER TABLE project_detail ADD CONSTRAINT FOREIGN KEY (nik) REFERENCES karyawan (nik);
 ALTER TABLE project_detail ADD CONSTRAINT FOREIGN KEY (id_proj) REFERENCES project (id_proj);
 ```
+![image](https://github.com/Aliyahasmarani/studikasusK/assets/115197672/879f4255-29f9-4e77-9a81-6e1de9cf7b07)
+
 
 # Menampilkan nama Manager tiap Departemen
 
